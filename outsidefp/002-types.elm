@@ -1,5 +1,8 @@
 -- Types
 -- Types are names that used to lump together similar values
+-- A type is a collection of related values
+-- A type is a set of values (sets in cs have the same type)
+
 -- Concrete Types
 -- Concrete types begin with capital letter -> Int, Bool, Float, Char, String, Regex, Date, Color
 -- Concret types are any type without type variables such as a,a1,b etc.

@@ -129,6 +129,9 @@ type Msg
 
 
 -- We can use pattern matching to get the value out of the container
+-- In case of expression you need to cover all types, that's why you will never get null --> you need to return something e.g. Nothing
+-- In Elm you always return something back, in if the same if is basically an expression like ternary in js true ? true : false
+-- That's why you have also a catch all clause _ -> ...
 
 
 update msg model =
